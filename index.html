@@ -9,17 +9,42 @@
     
   }
   
+  
+  
   .frame {
-    background-color: blue;
+/*     background-color: blue; */
     height: 511px;
     width: 511px;
 /*     padding: 20px; */
 /*     margin: 111px auto; */
     border: 5px solid orange;
+    position: relative;
+  }
+  
+    .can {
+      position: absolute;
+      right: 50px;
+      bottom: 50px;
+      width: 111px;
+      height: 200px;
+      background-color: yellow;
+       }
     
-    
+  .red {
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+/*     z-index: 0; */
+      
   }
 
 </style>
 
-<div class="frame">jkjk</div>
+<div class="frame">
+	<div class="can">
+    <div class="brand">CAFE BUSTELO</div>
+    <div class="red"></div>
+  	</div>
+</div>
